@@ -14,8 +14,8 @@ public class Main {
     }
     public static void task2() {
 
-        int minSum = arr[0];
-        int maxSum = arr[0];
+        int minSum = Integer.MAX_VALUE;
+        int maxSum = Integer.MIN_VALUE;
         for (int day : arr) {
             if (day < minSum) {
                 minSum = day;
